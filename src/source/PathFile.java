@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class PathFile implements FileSource {
     @Override
-    public void getFile(String path, FileParser fileParser) throws IOException {
+    public void readFile(String path, FileParser fileParser) throws IOException {
         FileReader fileReader = new FileReader(path);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         fileParser.getNodes(bufferedReader);

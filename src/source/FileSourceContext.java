@@ -13,7 +13,7 @@ public class FileSourceContext {
     }
 
     public void parseFile(String path, FileParser fileParser) throws IOException {
-        fileSource.getFile(path,fileParser);
+        fileSource.readFile(path,fileParser);
     }
 
 

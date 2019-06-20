@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b261fb8-8ea6-4129-b079-92aafbd65125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/parser/ParserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/source/FileSourceContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projekt__/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projekt__/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/FileSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/FileSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/FileSourceContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/FileSourceContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/PathFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/PathFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/source/PathFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +129,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/source/FileSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/source/FileSourceContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,12 +201,12 @@
         <option value="$PROJECT_DIR$/src/parser/CSVParser.java" />
         <option value="$PROJECT_DIR$/src/parser/FileParser.java" />
         <option value="$PROJECT_DIR$/src/parser/XMLParser.java" />
-        <option value="$PROJECT_DIR$/src/source/PathFile.java" />
-        <option value="$PROJECT_DIR$/src/source/FileSource.java" />
         <option value="$PROJECT_DIR$/src/database/InsertCustomer.java" />
         <option value="$PROJECT_DIR$/src/parser/ParserContext.java" />
-        <option value="$PROJECT_DIR$/src/source/FileSourceContext.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/source/FileSource.java" />
+        <option value="$PROJECT_DIR$/src/source/FileSourceContext.java" />
+        <option value="$PROJECT_DIR$/src/source/PathFile.java" />
       </list>
     </option>
   </component>
@@ -318,7 +331,7 @@
       <workItem from="1560873493344" duration="411000" />
       <workItem from="1561027791270" duration="5958000" />
       <workItem from="1561047947058" duration="7863000" />
-      <workItem from="1561059505575" duration="862000" />
+      <workItem from="1561059505575" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="init files">
       <created>1560698398541</created>
@@ -341,11 +354,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561056285854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add parser,filesource context">
+      <created>1561060635296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561060635296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32686000" />
+    <option name="totallyTimeSpent" value="33080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -389,7 +409,8 @@
     <MESSAGE value="init files" />
     <MESSAGE value="version1.0" />
     <MESSAGE value="fix contact value" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix contact value" />
+    <MESSAGE value="add parser,filesource context" />
+    <option name="LAST_COMMIT_MESSAGE" value="add parser,filesource context" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Customer.java" />
@@ -465,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/source/PathFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/FileParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -502,28 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/source/FileSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/source/FileSourceContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/ParserContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -540,7 +529,37 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/source/FileSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/source/FileSourceContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/source/PathFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
