@@ -1,15 +1,17 @@
-import parser.parserFile;
-import parser.xmlParser;
-import source.fileSource;
-import source.pathFile;
+import parser.CSVParser;
+import parser.FileParser;
+import parser.XMLParser;
+import source.FileSource;
+import source.PathFile;
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        parserFile parserXML = new xmlParser();
-        fileSource fileSource = new pathFile();
-        fileSource.getFile("daneXML.xml","person",parserXML);
-
+        FileSource fileSource = new PathFile();
+        FileParser parserXML = new XMLParser("person","contacts");
+        fileSource.getFile("daneXML.xml",parserXML);
+        FileParser parserCSV = new CSVParser();
+        fileSource.getFile("daneCSV.txt",parserCSV);
     }
 }

@@ -26,4 +26,23 @@ public class Customer {
 
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public Integer getAge() {
+        return !age.equals("")?Integer.parseInt(age):null;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public List<Contact> getContact() {
+        return contact;
+    }
 }
