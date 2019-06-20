@@ -75,7 +75,7 @@ public class InsertCustomer {
                 preparedStatement = connection.prepareStatement(insertContact, Statement.RETURN_GENERATED_KEYS);
                 preparedStatement.setObject(1, customerID);
                 preparedStatement.setObject(2, contact.getType());
-                preparedStatement.setObject(3, contact.getContact());
+                preparedStatement.setObject(3, contact.getValue());
                 preparedStatement.executeUpdate();
             } catch (SQLException | ClassNotFoundException e) {
                 e.printStackTrace();

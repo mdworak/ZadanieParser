@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b261fb8-8ea6-4129-b079-92aafbd65125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/InsertCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/CSVParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/META-INF/projekt__.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projekt__/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/entities/Contact$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/entities/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/entities/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projekt__/entities/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/parser/parserFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/parser/xmlParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/source/fileSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projekt__/source/fileSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projekt__/source/pathFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projekt__/source/pathFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekt__.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projekt__.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/parserFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/FileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/xmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/XMLParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/source/fileSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/FileSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/source/pathFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/PathFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/InsertCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/InsertCustomer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/database/InsertCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="312">
+              <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser/CSVParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="467">
+              <caret line="28" column="49" selection-start-line="27" selection-start-column="32" selection-end-line="28" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/source/FileSource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/parser/csvParser.java" />
         <option value="$PROJECT_DIR$/src/parser/xmlParser.java" />
         <option value="$PROJECT_DIR$/src/dataBase/InsertCustomer.java" />
-        <option value="$PROJECT_DIR$/src/database/InsertCustomer.java" />
         <option value="$PROJECT_DIR$/src/entities/Contact.java" />
         <option value="$PROJECT_DIR$/src/parser/CSVParser.java" />
         <option value="$PROJECT_DIR$/src/parser/FileParser.java" />
@@ -209,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/source/PathFile.java" />
         <option value="$PROJECT_DIR$/src/source/FileSource.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/database/InsertCustomer.java" />
       </list>
     </option>
   </component>
@@ -332,7 +310,7 @@
       <workItem from="1560685262654" duration="12956000" />
       <workItem from="1560873493344" duration="411000" />
       <workItem from="1561027791270" duration="5958000" />
-      <workItem from="1561047947058" duration="6785000" />
+      <workItem from="1561047947058" duration="7338000" />
     </task>
     <task id="LOCAL-00001" summary="init files">
       <created>1560698398541</created>
@@ -341,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560698398541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version1.0">
+      <created>1561055689040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561055689040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30746000" />
+    <option name="totallyTimeSpent" value="31299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -360,17 +345,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18634886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4355363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -387,7 +372,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init files" />
-    <option name="LAST_COMMIT_MESSAGE" value="init files" />
+    <MESSAGE value="version1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version1.0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Customer.java" />
@@ -440,6 +426,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/source/FileSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/FileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/source/PathFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -457,18 +470,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/CSVParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="467">
+          <caret line="28" column="49" selection-start-line="27" selection-start-column="32" selection-end-line="28" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/FileParser.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,38 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/InsertCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/source/PathFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/source/FileSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="312">
+          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
