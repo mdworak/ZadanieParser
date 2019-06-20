@@ -2,6 +2,7 @@ package database;
 
 import entities.Contact;
 import entities.Customer;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,13 +15,14 @@ public class InsertCustomer {
         try (InputStream input = new FileInputStream("./src/config.properties")) {
             Properties prop = new Properties();
             prop.load(input);
-            username=prop.getProperty("mDbUser");
-            jdbcUrl=prop.getProperty("mDbHost");
-            password =prop.getProperty("mDbPwds");
+            username = prop.getProperty("mDbUser");
+            jdbcUrl = prop.getProperty("mDbHost");
+            password = prop.getProperty("mDbPwds");
         } catch (IOException ex) {
             ex.printStackTrace();
         }
     }
+
     private String jdbcUrl;
     private String username;
     private String password;
@@ -28,12 +30,12 @@ public class InsertCustomer {
     public void addCustomer(Customer customer) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
-        String insertCustomer="INSERT INTO customers_table "
+        String insertCustomer = "INSERT INTO customers_table "
                 + "(name, surname, city, age) VALUES (?,?,?,?)";
         try {
             Class.forName("com.mysql.jdbc.Driver");
             connection = getConnection();
-            preparedStatement = connection.prepareStatement(insertCustomer,Statement.RETURN_GENERATED_KEYS);
+            preparedStatement = connection.prepareStatement(insertCustomer, Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setObject(1, customer.getName());
             preparedStatement.setObject(2, customer.getSurname());
             preparedStatement.setObject(3, customer.getCity());
@@ -42,14 +44,13 @@ public class InsertCustomer {
             try (ResultSet generatedKeys = preparedStatement.getGeneratedKeys()) {
                 if (generatedKeys.next()) {
                     long customerId = generatedKeys.getLong(1);
-                    addContact(customer.getContact(),customerId);
-                }
-                else
+                    addContact(customer.getContact(), customerId);
+                } else
                     throw new SQLException("Creating user failed, no ID obtained.");
             }
-        }catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
                 if (preparedStatement != null) {
                     preparedStatement.close();
@@ -62,7 +63,8 @@ public class InsertCustomer {
             }
         }
     }
-    public  void addContact(List<Contact> contactList, long customerID) {
+
+    public void addContact(List<Contact> contactList, long customerID) {
         String insertContact = "INSERT INTO contact_table "
                 + "(id_customer, type, contact) VALUES (?,?,?)";
 
@@ -71,7 +73,7 @@ public class InsertCustomer {
         for (Contact contact : contactList) {
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                connection=getConnection();
+                connection = getConnection();
                 preparedStatement = connection.prepareStatement(insertContact, Statement.RETURN_GENERATED_KEYS);
                 preparedStatement.setObject(1, customerID);
                 preparedStatement.setObject(2, contact.getType());
